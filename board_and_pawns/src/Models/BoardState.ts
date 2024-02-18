@@ -1,13 +1,13 @@
 var uuid = 0;
 
-class PawnModel {
+class Pawn {
   pos: number = -1; 
   id: number = -1;
 }
 
 export class BoardState {
   cells: string[] = ['0', '1', '2', '3', '4', '5', '6', '7'];
-  pawns: PawnModel[] = [];
+  pawns: Pawn[] = [];
   selected: number = -1;
 }
 
